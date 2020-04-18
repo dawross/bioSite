@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Dan Ross">
+    <title>Chloe's Bio Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="top">
+
+        <header class="center">
+            <div class="pull-left hdr-col1 center">
+                <h1>Chloe Ross</h1>
+                <h2>Bio Site</h2>
+            </div>
+            <div class="pull-left hdr-col2 center"><img src="images/chloe_hdr.jpg" alt="Chloe"></div>
+        </header>
+        <nav class="center">
+            <ul class="nav">
+                <li><a href="#pics">Pics and Interests</a></li>
+                <li><a href="#art">Art</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="pull-left col inln-blk-fix">
+                <figure><img src="images/chloe_gatsby.jpg" alt="Chloe and Gatsby" width="460" height="460">
+                    <figcaption>Chloe and Gatsby</figcaption>
+                </figure>
+                <figure><img src="images/chloe_dad.jpg" alt="Chloe and Dad" width="460" height="460">
+                    <figcaption>Chloe and Dad</figcaption>
+                </figure>
+            </div>
+            <div class="pull-left col">
+                <p>Chloe Ross is my 11-year-old daughter that lives with me 50% of the time. She is the world to me and really the only real family I have any more. Chloe enjoys playing video games (of course), drawing, reading, playing with our dog, YouTube, and lots of other usual kid stuff. She says she wants to be some sort of artist when she grows up, so I do what I can to make sure she has what she needs to keep pursuing that. Chloe does very well in school, even though she is very clear that she hates going. The current circumstances we’re all in with the pandemic is no problem for her since she does not have a problem with not going to school. I have yet to tell her that she has to start online this coming Monday!</p>
+                <p>We have a corgi named Gatsby, that is her absolute best friend. He is a great dog and is very protective of her, even though she tortures him with hugs and affection. She also has a cat named Sylvester, a snake named Noodle, and 2 leopard geckos named Quibble and Echo. She has lots of friends she enjoys hanging out with, so she does miss doing that since we can’t right now. We enjoy playing video games together. Some of her favorite video games are Undertale, Deltarune, Roblox, and Ark Survival.</p>
+
+                <p>There are plenty of pictures on the site to look at and lots of her art as well. I hope you enjoy looking at everything.</p>
+                <div class="center"><img src="images/gatsby1.jpg" class="no-shdw" width="200" height="200" alt="Gatsby drawing"></div>
+            </div>
+
+            <h3 id="pics">Pics and Interests</h3>
+            <div class="btt"><a href="#top">Back to Top</a></div>
+            <div class="img-cnt pics">
+                <figure>
+                    <img src="images/gatsby_puppy.jpg" alt="Gatsby Puppy">
+                    <figcaption>Gatsby as a puppy</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/undertale.png" alt="Undertale">
+                    <figcaption><a href="https://undertale.com/" target="_blank">Undertale!</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/ark-survival-evolved_thmb.jpg" alt="Ark Survival">
+                    <figcaption><a href="http://playark.com/">Ark Survival</a></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/chloe_strange_thmb.jpg" alt="Chloe being strange">
+                    <figcaption>Strange girl</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/chloe_gatsby_cape_thmb.jpg" alt="Chloe and Gatsby with cape on">
+                    <figcaption>Gatsby wearing Umaru cape</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/chloe_gatsby_lap_thmb.jpg" alt="Gatsby on Chloe's lap">
+                    <figcaption>Gatsby sitting on Chloe's lap</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/chloe_gatsby_walk_thmb.jpg" alt="Chloe and Gatsby on a walk">
+                    <figcaption>Going for a walk</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/chloe_sylvester_thmb.jpg" alt="Chloe and Sylvester">
+                    <figcaption>Chloe and Sylvester</figcaption>
+                </figure>
+            </div>
+            <h3 id="art">ART</h3>
+            <div class="btt"><a href="#top">Back to Top</a></div>
+            <div class="img-cnt art">
+                <figure>
+                    <img src="images/dragon.png" width="466" height="466" alt="Spyro">
+                    <figcaption>Spyro</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/dragon-2.png" width="466" height="466" alt="Another Dragon">
+                    <figcaption>Dragon</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/drwing1.png" width="466" height="466" alt="Drawing">
+                    <figcaption>Animals Fighting</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/gatsby1.png" width="466" height="466" alt="Drawing of Gatsby">
+                    <figcaption>Gatsby caricature</figcaption>
+                </figure>
+            </div>
+        </main>
+        <footer>Site Created by Dan Ross</footer>
+    </div>
+
+
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
