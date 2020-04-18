@@ -59,11 +59,13 @@ h3 {
 p {
     line-height: 1.5em;
 }
+
 h3 {
-	font-size: 36px;
-	text-align: center;
-	margin-bottom: 0;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 0;
 }
+
 figure {
     margin: 0;
     display: inline-block;
@@ -113,6 +115,11 @@ figcaption {
 
 .no-shdw {
     box-shadow: none;
+}
+
+.btt {
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 footer {
