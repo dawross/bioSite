@@ -133,7 +133,7 @@ figure:hover:before {
 	width: 50%;
 }
 .col {
-	width: 50%;
+	width: 480px;
 	vertical-align: top;
 }
 .col img {
