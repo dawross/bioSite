@@ -1,9 +1,41 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 body {
 	background-color: #519772;
 	font-family: GillSans, Calibri, Trebuchet, sans-serif;
 	font-size: 18px;
 	background-image: url(images/asfalt-dark.png);
 	background-attachment: fixed;
+}
+h1,
+h2,
+h3 {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: #3b5248;
+}
+h1 {
+	font-size: 81px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+h2 {
+	font-size: 54px;
+}
+h3 {
+	font-size: 36px;
+	text-align: center;
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5em;
+}
+hr {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+	background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 ul {
 	list-style-type: none;
@@ -25,39 +57,36 @@ li a {
 li a:hover {
 	background-color: #3b5248;
 }
+.f-l {
+    float: left;
+}
+.f-r {
+    float: right;
+}
+
+.container {
+	max-width: 960px;
+	border: 1px solid black;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #bdc5ad;
+	background-image: url(images/arches.png);
+}
+header {
+	margin-bottom: 20px;
+}
 nav {
 	background-color: #35252e;
 	color: white;
 	font-size: 24px;
+	margin: 0 -20px;
 }
-img {
-	box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+
+header img {
+	max-width: 200px;
+	vertical-align: middle;
 }
-h1,
-h2,
-h3 {
-	font-family: Georgia, Times, "Times New Roman", serif;
-	color: #3b5248;
-}
-h1 {
-	font-size: 81px;
-}
-h2 {
-	font-size: 54px;
-}
-h3 {
-	font-size: 36px;
-	text-align: center;
-	margin-bottom: 0;
-}
-hr {
-	border: 0;
-	height: 1px;
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-p {
-	line-height: 1.5em;
-}
+
 figure {
 	position: relative;
 	display: inline-block;
@@ -91,8 +120,6 @@ figure.cap-left::before {
 	color: black;
 	width: 24px;
 	height: 24px;
-	-webkit-border-radius: 12px;
-	-moz-border-radius: 12px;
 	border-radius: 12px;
 	text-align: center;
 	font-size: 14px;
@@ -114,36 +141,13 @@ figure:hover:before {
 .cap-left:hover figcaption {
 	left: 0;
 }
-.inln-blk-fix {
-	margin-left: -5px;
-}
-.container {
-	max-width: 960px;
-	border: 1px solid black;
-	margin: 0 auto;
-	padding: 20px;
-	background-color: #bdc5ad;
-	background-image: url(images/arches.png);
-}
-.pull-left {
-	display: inline-block;
-}
-.hdr-col1 {
-	vertical-align: top;
-	width: 50%;
-}
-.col {
-	width: 480px;
-	vertical-align: top;
-}
-.col img {
-	margin-top: 20px;
+.art img {
+	max-width: 466px;
+	width: 100%;
+	height: auto;
 }
 .center {
 	text-align: center;
-}
-.no-shdw {
-	box-shadow: none;
 }
 .btt {
 	text-align: center;
