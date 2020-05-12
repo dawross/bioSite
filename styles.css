@@ -141,6 +141,9 @@ figure:hover:before {
 .cap-left:hover figcaption {
 	left: 0;
 }
+.bio img {
+	padding: 0 5px;
+}
 .art img {
 	max-width: 466px;
 	width: 100%;
